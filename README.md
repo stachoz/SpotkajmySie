@@ -125,7 +125,7 @@ Status 200 OK
 ## Odpowiedź ze statusem Bad Request 400
 Odpowiedzi ze statusem 400 należy się spodziewać, jeśli ciało żądania będzie niepoprawne, np
 - pola będą zawierały wartości `null`
-- czas będzie niepoprawnie sformatowany, np. zamiast `09:00`, będzie '9:00'
+- czas będzie niepoprawnie sformatowany, np. zamiast `09:00`, będzie `9:00`
 
 ## Testy jednostkowe
 Klasa `CalendarService` jest pokryta testami jednostkowymi, które uwzględniają następujące przypadki testowe:
